@@ -1,0 +1,130 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+  body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  }
+  .container{
+    max-width: 700px;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  }
+  .container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative; 
+    
+  }
+  
+  .content form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+  }
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+  }
+  
+  .user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+  }
+  /* .user-details .input-box input:focus,
+  .user-details .input-box input:valid{
+    border-color: #9b59b6;
+  } */
+
+
+  
+/* for input border when giving info */
+  .user-details .input-box input:focus{ 
+    border-color: #9b59b6;
+  }
+
+  /*  if yo want to show border color at first */
+  
+  /* .user-details .input-box input:valid{
+    border-color: #9b59b6;
+  } */
+
+    form button{
+      height: 50px;
+      width: 100%;
+      color: #fff;
+      background: #71b7e6;
+      border-radius: 5px;
+      border: none;
+      font-size: 20px;
+      margin-bottom: 10px;
+      cursor: pointer;
+      box-shadow: 2px 2px 4px rgba(0,0,0,0.1); 
+      transition: all 0.1s ease; 
+      
+    }
+  
+    button:hover{ 
+      opacity: 0.8;
+      background-color: green;
+     border: green;
+   }
+  .login-signup{
+    margin-left: 30%;
+  }
+  
+  .formerror {
+    color: red;
+  }
+  .error {
+    border: 1px solid red;
+  }
+  .hide {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+  span {
+    font-size: x-small;
+  }
+  /* h2 {
+    text-align: center;
+  } */
+  input.error:focus{
+    border:1px solid red;
+  }
+
+.radio-container{
+ 
+  flex: content;
+  text-align: center;
+  margin:20px;
+  word-spacing: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 45px;
+
+
+}
+
+

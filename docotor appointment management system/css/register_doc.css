@@ -1,0 +1,131 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  
+}
+.container{
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 25px 30px;
+  border-radius: 25px 25px;
+  box-shadow: 5px 5px 10px 5px skyblue;
+}
+.container .title{
+  font-size: 25px;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: green;
+  
+}
+
+.content form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 30px 30px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.user-details .input-box input:focus{ 
+  border-color: #9b59b6;
+}
+
+
+  form button{
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background: #71e6e6;
+    border-radius: 10px 100px;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.1); 
+    transition: all 0.1s ease; 
+    
+  }
+
+  button:hover{ 
+    opacity: 0.8;
+    background-color: green;
+   border: green;
+ }
+.login-signup{
+  margin-left: 30%;
+}
+
+.formerror {
+  color: red;
+}
+.error {
+  border: 1px solid red;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+span {
+  font-size: x-small;
+}
+/* h2 {
+  text-align: center;
+} */
+input.error:focus{
+  border:1px solid red;
+}
+
+#bookavail{
+  height: 45px;
+width: 100%;
+outline: none;
+font-size: 16px;
+border-radius: 5px;
+padding-left: 15px;
+border: 1px solid #ccc;
+border-bottom-width: 2px;
+transition: all 0.3s ease; 
+}
+
+
+#gender{
+  height: 45px;
+width: 100%;
+outline: none;
+font-size: 16px;
+border-radius: 5px;
+padding-left: 15px;
+border: 1px solid #ccc;
+border-bottom-width: 2px;
+transition: all 0.3s ease; 
+}
